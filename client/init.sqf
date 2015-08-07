@@ -143,6 +143,7 @@ A3W_scriptThreads pushBack execVM "addons\Lootspawner\LSclientScan.sqf";
 [] execVM "addons\UAV_Control\functions.sqf";
 [] execVM "addons\disableThermal\disablethermal.sqf";  //disable thermal vision
 [] execVM "addons\Safe\init.sqf";	
+[] execVM "addons\EtV\init.sqf";					// Explosives to Vehicles
 
 call compile preprocessFileLineNumbers "client\functions\generateAtmArray.sqf";
 [] execVM "client\functions\drawPlayerMarkers.sqf";
